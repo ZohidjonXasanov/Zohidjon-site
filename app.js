@@ -6,10 +6,10 @@ var button_map_2 = document.getElementById("button_map_2");
 
 function myFunction() {
     var txt;
-    if (confirm("Emailingizni ro'yxatdan o'tkazing!")) {
-        txt = "yaxshi!";
+    if (confirm("Register your email!")) {
+
     } else {
-        txt = "Emailsiz kira olmaysiz!";
+        txt = "You cannot enter without an email!";
     }
     alert(txt)
 }
