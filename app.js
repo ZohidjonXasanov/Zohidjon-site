@@ -7,7 +7,7 @@ var button_map_2 = document.getElementById("button_map_2");
 function myFunction() {
     var txt;
     if (confirm("Register your email!")) {
-
+        txt = "ok"
     } else {
         txt = "You cannot enter without an email!";
     }
