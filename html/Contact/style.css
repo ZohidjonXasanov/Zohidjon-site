@@ -4,6 +4,20 @@
   margin: 0px;
 }
 
+body ::-webkit-scrollbar {
+  width: 10px;
+}
+body ::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+body ::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 50px;
+}
+body ::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
 header {
   margin-top: 60px;
 }
@@ -103,6 +117,10 @@ main .text_input .main_input_button:hover {
 }
 main .text_input input {
   width: 500px;
+  padding: 5px;
+}
+main .text_input input:focus-visible {
+  outline: none;
 }
 main .main_img img {
   width: 600px;

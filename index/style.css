@@ -4,6 +4,20 @@
   margin: 0px;
 }
 
+body ::-webkit-scrollbar {
+  width: 10px;
+}
+body ::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+body ::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 50px;
+}
+body ::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
 header {
   margin-top: 60px;
 }
@@ -98,6 +112,7 @@ header nav .center_button p {
 }
 .section .section_text p {
   font-size: 50px;
+  margin-left: 130px;
 }
 .section .section_text .button_section {
   padding: 25px;
