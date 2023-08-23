@@ -4,17 +4,15 @@ var p = document.getElementById("p");
 var button_map = document.getElementById("button_map");
 var button_map_2 = document.getElementById("button_map_2");
 
-function myFunction() {
-    var txt;
-    if (confirm("Register your email!")) {
-        txt = "ok"
-    } else {
-        txt = "You cannot enter without an email!";
-    }
-    alert(txt)
-}
-
-myFunction()
+(function () {
+        var txt;
+        if (confirm("Register your email!")) {
+            txt = "ok"
+        } else {
+            txt = "You cannot enter without an email!";
+        }
+        alert(txt)
+})();
 
 function btn() {
     if (input_1.value == "xzohidjon8348@gmail.com") {
